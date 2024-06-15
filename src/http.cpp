@@ -4,7 +4,7 @@
 #include <ArduinoJson.h>
 
 // 红外避障传感器引脚(前)
-// const int headMH
+// extern int headMH
 // 前照灯
 extern int headlight;
 // 停车灯&危险报警灯光引脚
@@ -16,11 +16,11 @@ extern int motor_a_2;
 extern int motor_b_1;
 extern int motor_b_2;
 // 总电源开关
-boolean power_switch = false;
+extern boolean power_switch;
 // 总驱动电源开关
-boolean motor_switch = false;
+extern boolean motor_switch;
 // 总照明开关
-boolean light_switch = false;
+extern boolean light_switch;
 
 
 /**

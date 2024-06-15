@@ -51,6 +51,13 @@ int motor_a_2 = 19;
 int motor_b_1 = 22;
 int motor_b_2 = 23;
 
+// 总电源开关
+boolean power_switch = false;
+// 总驱动电源开关
+boolean motor_switch = false;
+// 总照明开关
+boolean light_switch = false;
+
 AsyncWebServer server(80);
 
 //作为本地开启热点后的默认连接配置
